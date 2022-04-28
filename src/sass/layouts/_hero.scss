@@ -1,0 +1,35 @@
+.hero .container {
+  display: flex;
+}
+
+.hero-content-container {
+  max-width: 606px;
+}
+
+.hero-title {
+  padding-top: 76px;
+  margin-bottom: 24px;
+
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+}
+
+.hero-descr {
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.649;
+  letter-spacing: 0.08em;
+}
+
+.hero-descr-firstpart {
+  color: var(--secondary-color);
+  display: block;
+}
+
+.hero-descr-secondpart--withcolor {
+  color: var(--accent-color);
+}
